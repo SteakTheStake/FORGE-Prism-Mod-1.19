@@ -81,13 +81,13 @@
   "block.prism.palm_leaves_top": "Palm Leaves Top",
   "block.prism.palm_sapling": "Palm Sapling",
 
-  "itemGroup.prism.terrain": "Terrain Blocks",
+  "itemGroup.terrain": "Terrain Blocks",
 
-  "itemGroup.prism.construction": "Construction Blocks",
+  "itemGroup.construction": "Construction Blocks",
 
-  "itemGroup.prism.furniture": "Furniture Blocks",
+  "itemGroup.furniture": "Furniture Blocks",
 
-  "itemGroup.prism.decoration": "Decoration Blocks",
+  "itemGroup.decoration": "Decoration Blocks",
 
-  "itemGroup.prism.foliage": "Foliage"
+  "itemGroup.natural": "Natural"
 }
