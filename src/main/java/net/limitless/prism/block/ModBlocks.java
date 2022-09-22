@@ -44,6 +44,22 @@ public class ModBlocks {
             () -> new Dirt(BlockBehaviour.Properties.of(Material.DIRT)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAIN_TAB);
 
+    public static final RegistryObject<Block> ANDESITE = registerBlock("andesite",
+            () -> new Andesite(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAIN_TAB);
+
+    public static final RegistryObject<Block> DIORITE = registerBlock("diorite",
+            () -> new Diorite(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAIN_TAB);
+
+    public static final RegistryObject<Block> GRANITE = registerBlock("granite",
+            () -> new Granite(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAIN_TAB);
+
+    public static final RegistryObject<Block> MUD = registerBlock("mud",
+            () -> new Mud(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERRAIN_TAB);
+
 
     public static final RegistryObject<Block> VILLAGE_BLOCK = registerBlock("village_block",
             () -> new VillageBlock(BlockBehaviour.Properties.of(Material.STONE)
@@ -109,6 +125,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> PALM_SAPLING = registerBlock("palm_sapling",
             () -> new PalmSapling(BlockBehaviour.Properties.of(Material.LEAVES)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.NATURAL_TAB);
+
+
+    public static final RegistryObject<Block> DINING_ROOM_CHAIR = registerBlock("dining_room_chair",
+            () -> new DiningRoomChair(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.FURNITURE_TAB);
+
+
+    public static final RegistryObject<Block> BREAKFAST_SAVORY = registerBlock("breakfast_savory",
+            () -> new BreakfastSavory(BlockBehaviour.Properties.of(Material.GLASS)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
+
+    public static final RegistryObject<Block> BREAKFAST_SWEET = registerBlock("breakfast_sweet",
+            () -> new BreakfastSweet(BlockBehaviour.Properties.of(Material.GLASS)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

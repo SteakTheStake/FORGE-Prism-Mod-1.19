@@ -14,7 +14,7 @@ public class PalmLogThin extends Block {
 
 
     private static final VoxelShape SHAPE =
-            Block.box(6, 0, 6, 6, 16, 6);
+            Block.box(6, 0, 6, 8, 16, 8);
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {
