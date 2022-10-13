@@ -110,6 +110,88 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
 
 
+    public static final RegistryObject<Block> BIGARCH = registerBlock("big_arch",
+            () -> new BigArch(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> WOODEN_WALL_PIECE = registerBlock("wooden_wall_piece",
+            () -> new WoodenWallPiece(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> SHOP_COVER_LEFT = registerBlock("shop_cover_left",
+            () -> new ShopCoverLeft(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> SHOP_COVER_MIDDLE = registerBlock("shop_cover_middle",
+            () -> new ShopCoverMiddle(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> SHOP_COVER_RIGHT = registerBlock("shop_cover_right",
+            () -> new ShopCoverRight(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_FLOOR_TILES = registerBlock("desert_floor_tiles",
+            () -> new DesertFloorTiles(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> RED_DESERT_FLOOR_TILES = registerBlock("red_desert_floor_tiles",
+            () -> new RedDesertFloorTiles(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> MARBLE_TILES = registerBlock("marble_tiles",
+            () -> new MarbleTiles(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_BRICK_WINDOW = registerBlock("desert_brick_window",
+            () -> new DesertBrickWindow(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_FLOOR = registerBlock("desert_floor",
+            () -> new DesertFloor(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_BRICK = registerBlock("desert_brick",
+            () -> new DesertBrick(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_BRICK_TOP = registerBlock("desert_brick_top",
+            () -> new DesertBrickTop(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_BRICK_ARCH = registerBlock("desert_brick_arch",
+            () -> new DesertBrickArch(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_BRICK_WALL = registerBlock("desert_brick_wall",
+            () -> new DesertBrickWall(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> DESERT_BRICK_FLOOR = registerBlock("desert_brick_floor",
+            () -> new DesertBrickFloor(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+    public static final RegistryObject<Block> WOODEN_WALL_OUTSIDE = registerBlock("wooden_wall_outside",
+            () -> new WoodenWallOutside(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.CONSTRUCTION_TAB);
+
+
+/**---------------------------------------------------------------**/
+
     public static final RegistryObject<Block> PALM_LEAVES_TOP = registerBlock("palm_leaves_top",
             () -> new PalmLeavesTop(BlockBehaviour.Properties.of(Material.LEAVES)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.NATURAL_TAB);
@@ -126,11 +208,17 @@ public class ModBlocks {
             () -> new PalmSapling(BlockBehaviour.Properties.of(Material.LEAVES)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.NATURAL_TAB);
 
+    public static final RegistryObject<Block> TROPICAL_PLANT = registerBlock("tropical_plant",
+            () -> new TropicalPlant(BlockBehaviour.Properties.of(Material.LEAVES)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.NATURAL_TAB);
+
+    /**---------------------------------------------------------------**/
 
     public static final RegistryObject<Block> DINING_ROOM_CHAIR = registerBlock("dining_room_chair",
             () -> new DiningRoomChair(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.FURNITURE_TAB);
 
+    /**---------------------------------------------------------------**/
 
     public static final RegistryObject<Block> BREAKFAST_SAVORY = registerBlock("breakfast_savory",
             () -> new BreakfastSavory(BlockBehaviour.Properties.of(Material.GLASS)
@@ -138,6 +226,26 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BREAKFAST_SWEET = registerBlock("breakfast_sweet",
             () -> new BreakfastSweet(BlockBehaviour.Properties.of(Material.GLASS)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
+
+    public static final RegistryObject<Block> ROPE = registerBlock("rope",
+            () -> new Rope(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
+
+    public static final RegistryObject<Block> CLOTHES_ONE = registerBlock("clothes_1",
+            () -> new ClothesOne(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
+
+    public static final RegistryObject<Block> CLOTHES_TWO = registerBlock("clothes_2",
+            () -> new ClothesTwo(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
+
+    public static final RegistryObject<Block> CLOTHES_THREE = registerBlock("clothes_3",
+            () -> new ClothesThree(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
+
+    public static final RegistryObject<Block> BASKET_OF_POTATO = registerBlock("basket_of_potato",
+            () -> new BasketOfPotato(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.DECORATION_TAB);
 
 
